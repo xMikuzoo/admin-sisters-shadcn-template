@@ -7,7 +7,7 @@ export default function RootLayout() {
     <ThemeProvider defaultTheme="system" storageKey="vite-ui-theme">
       <div className="min-h-screen bg-background">
         <Header />
-        <main className="container mx-auto py-6">
+        <main className=" mx-auto p-4">
           <Outlet />
         </main>
       </div>
